@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.nav-item {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.year-tabs {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.year-tab {
+    margin: 0 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#map {
+    height: 80vh;
+    margin: 10px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.legend {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
